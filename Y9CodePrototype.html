@@ -1,0 +1,403 @@
+<!-- United Nation's Sustainable Development Goals -->
+<!-- Author: Arjun S. Shah -->
+<!-- School: Upper Canada College, Grade 9 -->
+
+<html>
+<head>
+    
+<style>
+   
+body {
+ background-color: white; 
+}
+   
+   .button {
+ border: none;
+ color: #e5243b;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+}
+
+.button1 {background-color: #0000FF;}
+.button2 {background-color: #FFFF00;}
+.button3 {background-color: #FF0000;}
+   
+ .topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #e5243b;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: #e5243b;
+}
+   #goal8div {
+       position: absolute;
+       left: 50;
+       top: 150;
+       opacity: inherit;
+       border-radius: 100%;
+       
+   }
+   
+    #goal10div {
+       position: absolute;
+       right: 50;
+       top: 150;
+       opacity: inherit;
+       border-radius: 100%;
+       
+   }
+   #buttononediv {
+       position: absolute;
+       left: 950;
+       top: 30;
+   }
+   
+   #buttontwodiv {
+       position: absolute;
+       left: 1070;
+       top: 30;
+       color: #e5243b
+   }
+   
+   #buttonthreediv {
+       position: absolute;
+       left: 2000;
+       top: 30;
+   }
+   
+   #unpagediv {
+       text-align: center;
+   }
+   
+   #factsandstatsdiv {
+       font-family: 'Gotham', sans-serif;
+       font-size: 40px;
+       text-align: center;
+       color: #e5243b;
+   }
+   
+   #factsdiv {
+       font-family: 'Gotham', sans-serif;
+       font-size: 20px;
+       color: #DD1367
+
+   }
+    
+    #Inequalitydiv {
+        font-family: 'Gotham', sans-serif;
+        font-size: 20px; 
+        color:#A21942;
+    }
+    
+    
+    #logotextdiv{
+        
+        position: absolute;
+        left: 5px;
+        top: 5px;
+    }
+    
+    #Jobsdiv{
+        
+        font-family: 'Gotham', sans-serif;
+        font-size: 20px;
+        color: #DD1367;  
+   
+    }
+    
+    #Bothdiv{
+        
+        font-family: 'Gotham', sans-serif;
+        font-size: 20px;
+        color: #A21942;
+        
+    }
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #e5243b;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: #555;
+  color: white;
+  transform: rotateY(180deg);
+}
+    #Flipbox-textdiv{
+        
+        font-family: 'Gotham', sans-serif;
+        font-size: 20px;
+        color: #A21942;
+    }
+    
+    #Flipbox-text2div{
+        
+        font-family: 'Gotham', sans-serif;
+        font-size: 20px;
+        color: #DD1367;
+    }
+    
+    #convincetextdiv{
+        
+        font-family: 'Gotham', sans-serif;
+        font-size: 20px;
+        color: teal    
+    }
+    #example1textdiv{
+        
+        font-family: 'Gotham', sans-serif;
+        font-size: 20px;
+        color: #A21935;
+        position: absolute;
+        left: 1000;
+    }
+    
+    #example1imagediv{
+        position: absolute;
+        opacity: inherit;
+       border-radius: 100%;
+   
+    }
+    #examples2textdiv{
+        position: absolute;
+        font-size: 20px;
+        color: #A21935;
+        top: 3900;  
+        font-family: 'Gotham', sans-serif;
+    }
+
+    #searchbarexplaindiv{
+        position: absolute;
+        top: 4000;
+        font-family: 'Gotham', sans-serif;
+        color: #234099
+    }
+    form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+        position: absolute;
+        top: 4100;
+    }
+
+    #externalsdiv {
+        position: absolute;
+        top: 4200;
+        font-family: 'Gotham', sans-serif;
+        color: #A21099
+    }
+    
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a class="Main" href="#home">Main Page</a>
+  <a href="#Goal8">Goal 8</a>
+  <a href="#Goal10">Goal 10</a>
+</div>
+
+<div id = "goal8div">
+<a href="https://sdgs.un.org/goals/goal8" target="_blank">
+    <p title="UN Goal 8 Page"><img border="0" alt="unsdg8logo" src="https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/08/E-Inverted-Icons_WEB-08-1024x1024.png" width="150" height="150"></p>
+</a>
+</div>
+    
+<div id = "goal10div">
+<a href="https://sdgs.un.org/goals/goal10" target="_blank">
+    <p title="UN Goal 10 Page"><img border="0" alt="unsdg10logo" src="https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/08/E-Inverted-Icons_WEB-10-1024x1024.png" width="150" height="150"></p>
+</a>
+</div>
+   
+ <div id = "unpagediv">
+<a href="https://un.org" target="_blank">
+    <p title="UN Home Page"><img border="0" alt="unsdgsite" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/31/Sustainable_Development_Goals_logo.svg/1200px-Sustainable_Development_Goals_logo.svg.png"></p>
+     </a>
+   </div>
+    <div id="Flipbox-textdiv">
+ <h1>Goal 8</h1>
+<h3>Learn More About this Goal By Hoveing over the image below:</h3>
+</div>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="https://www.un.org/esa/ffd/ffddialogue/images/E_SDG%20goals_icons-individual-rgb-08.png" alt="Goal 8" style="width:300px;height:300px">
+    </div>
+    <div class="flip-box-back">
+      <h2>Decent Work and economic growth</h2>
+      <p>Sustainable Development Goal 8 is about "decent work and economic growth" and is one of the 17 Sustainable Development Goals which were established by the United Nations General Assembly in 2015</p>
+    </div>
+  </div>
+</div>
+<div id="Flipbox-text2div">
+<h1>Goal 10</h1>
+<h3>Learn More About this Goal By Hoveing over the image below (Not yet functionable):
+    
+    </h3>
+    
+    </div>
+    
+  <img src="https://www.un.org/esa/ffd/ffddialogue/images/E_SDG%20goals_icons-individual-rgb-10.png" alt="Goal 10" style="width:300px;height:300px">
+<div id = "factsandstatsdiv">
+<p>The Issues...</p>
+</div>
+ <div id = "logotextdiv">
+</div>  
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<body>
+
+<p><button onclick="w3.toggleShow('#Inequalitydiv')">Inequality</button></p>
+
+<div id="Inequalitydiv">
+  <h2>Inequality</h2>
+  <p>aside from the economy alone, there are several reasons as to why inequality itself is a large issue... </p>
+</div>
+    
+     
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<body>
+
+<p><button onclick="w3.toggleShow('#Jobsdiv')">Jobs and Money</button></p>
+
+<div id="Jobsdiv">
+  <h2>Jobs and Money</h2>
+  <p>Aside from a difference in gender pay, as well as racism taking effect when selecting people for a job, there are many other reasons as to why decent pay and work is important for everyone... </p>
+</div>
+  
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<body>
+
+<p><button onclick="w3.toggleShow('#Bothdiv')">How are these connected?</button></p>
+
+ <div id="Bothdiv">
+<h2>Inequality in pay and occupations</h2>
+
+<p>Gender Pay difference, disability claims, and racism in a workplace are only a number of examples of how inequality connects to decent pay...</p>
+ 
+    </div>
+    
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<body>
+    
+<p><button onclick="w3.toggleShow('#factsdiv')">Fun Facts</button></p>
+
+ <div id="factsdiv">
+ 
+     <h3>Did You Know?...</h3>
+
+<ul>
+<li>Insert Fact Here </li>
+<li> Insert Fact Here</li>
+<li>Insert Fact Here</li>
+<li> insert fact here</li>
+  <li> insert fact here</li> 
+    <li>insert fact here</li>
+    <li> insert fact here</li>
+    <li> insert fact here</li>
+    <li>insert fact here</li>  
+     </ul>
+     <p>In this page you have learned about two main goals, as well as how they connect. There are two separate pages which focus more on the goals alone. Be sure to check those out later! </p>
+    </div>
+   
+     
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<body>
+    
+    <div id="convincetextdiv">
+    
+        <h1>
+        
+        Convinced?    
+            
+        </h1>
+       
+        <p>In case you weren't convinced by the statistics and issues mentioned above, here is proof that <b><em>you</em></b> can help to solve these issues:</p>  
+   
+    </div>
+   
+    <div id="example1imagediv">
+    
+<p title="infographic"><img border="0" alt="payinfographic" src="http://cdn.statcdn.com/Infographic/images/normal/3958.jpeg"></p>
+    
+    </div>
+    
+    <div id="example1textdiv" >
+        
+       <p> As seen in this image, you can help to solve both goals through equal pay. This unfair system works not only through a gender pay gap, however people of different ethnicities are also recieving less pay as well. You can help bridge this gap. In the future, whether you become a fancy boss, or whether you work for someone, make sure that equal pay is distributed for equal work. For now, you can try to treat everyone equally, and hope that in the future, you will be treated the same way. 
+        </p>
+        
+        </div>  
+    <div id="examples2textdiv">
+    <h1> More examples...</h1>
+    </div>
+<div id="searchbarexplaindiv">
+    <h4> Enter the name of your country, continent or simply enter 'world', and the result below will show the gender pay gap (in %) for the selected place</h4>
+    <p>not yet functionable</p>
+    </div>
+    
+    
+<form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+  <input type="text" placeholder="Search...">
+
+</form>
+
+    <div id="externalsdiv">
+    <h1> external links:</h1>
+        <p><a href="un.org/en/">Support the UN and learn more about their goals!</a></p>
+        <p><a href="https://www.twinkl.ca/resource/is-it-fair-activity-sheet-t-c-2549283">Scenarios! (is it fair?)</a></p>
+        <p><a href="https://www.facinghistory.org/books-borrowing/teaching-inspector-calls/building-classroom-community">create a contract where everyone feels equal (ask your teacher for approval in school, and work with your family at home) </a></p>
+    </div>
+    
+    
